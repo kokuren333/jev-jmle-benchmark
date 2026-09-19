@@ -1,0 +1,3 @@
+﻿has_image_reference,n,correct,accuracy,median_latency_ms
+False,2582,2369,0.9175058094500387,820.2786000000001
+True,974,781,0.8018480492813141,822.63365

@@ -1,0 +1,17 @@
+# secrets
+.env
+*.key
+# environments
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+# downloaded third-party benchmark data
+data/
+# raw API response bodies (kept private unless provider terms are confirmed)
+runs/*/raw/
+# local runs
+runs/
+# OS
+.DS_Store
+Thumbs.db

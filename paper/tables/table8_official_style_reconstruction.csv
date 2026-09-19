@@ -1,0 +1,10 @@
+year,exam,option_items_evaluated,non_option_items_omitted,required_observed_score,required_missing_possible_points,required_official_adjustment_points,required_score_lower,required_score_upper,required_cut,required_official_max,required_status,general_observed_score,general_missing_possible_points,general_official_adjustment_points,general_score_lower,general_score_upper,general_cut,general_official_max,general_status,published_score_threshold_status,prohibited_choice_limit,formal_pass_status
+2018,112,397,2,185,0,0,185,185,160,200,PASS_GUARANTEED,253,2,1,252,255,208,299,PASS_GUARANTEED,PASS_GUARANTEED,3,INDETERMINATE (prohibited-choice identities are not public)
+2019,113,393,2,172,0,0,172,172,160,200,PASS_GUARANTEED,251,2,4,247,253,209,296,PASS_GUARANTEED,PASS_GUARANTEED,3,INDETERMINATE (prohibited-choice identities are not public)
+2020,114,395,3,184,0,3,181,184,158,197,PASS_GUARANTEED,263,3,1,262,266,217,299,PASS_GUARANTEED,PASS_GUARANTEED,3,INDETERMINATE (prohibited-choice identities are not public)
+2021,115,398,2,178,0,0,178,178,160,200,PASS_GUARANTEED,251,2,0,251,253,209,300,PASS_GUARANTEED,PASS_GUARANTEED,3,INDETERMINATE (prohibited-choice identities are not public)
+2022,116,393,3,183,3,3,180,186,158,197,PASS_GUARANTEED,264,2,3,261,266,214,297,PASS_GUARANTEED,PASS_GUARANTEED,3,INDETERMINATE (prohibited-choice identities are not public)
+2023,117,391,3,182,0,0,182,182,160,200,PASS_GUARANTEED,250,3,5,245,253,220,295,PASS_GUARANTEED,PASS_GUARANTEED,2,INDETERMINATE (prohibited-choice identities are not public)
+2024,118,396,3,190,0,0,190,190,160,200,PASS_GUARANTEED,266,3,0,266,269,230,300,PASS_GUARANTEED,PASS_GUARANTEED,3,INDETERMINATE (prohibited-choice identities are not public)
+2025,119,396,4,185,0,0,185,185,160,200,PASS_GUARANTEED,266,4,0,266,270,221,300,PASS_GUARANTEED,PASS_GUARANTEED,3,INDETERMINATE (prohibited-choice identities are not public)
+2026,120,397,3,181,0,0,181,181,160,200,PASS_GUARANTEED,266,3,0,266,269,224,300,PASS_GUARANTEED,PASS_GUARANTEED,3,INDETERMINATE (prohibited-choice identities are not public)

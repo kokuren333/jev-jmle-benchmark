@@ -1,0 +1,34 @@
+{
+  "run_id": "20260919T092845Z_multi-year_both-derived",
+  "dataset_mode": "multi-year",
+  "image_mode": "both",
+  "derived": true,
+  "source_runs": [
+    "20260919T081634Z_multi-year_no-image",
+    "20260919T085840Z_multi-year_image-only"
+  ],
+  "years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "requested_model": "typesafe/jev-1.13",
+  "dataset_sha256": "fc19c416bda094040539746f3339fcac547a9a23cb3264712931d3ad0d1a041e",
+  "protocol_sha256": "56c901cb9330d299c75a1efbc1c34cc9d56ba7b0b52b800013c0f2840b7c4877",
+  "concurrency": 1,
+  "n_eligible": 3556,
+  "response_models": [
+    "typesafe/jev-1.13-20260917"
+  ],
+  "providers": [
+    "TypeSafe"
+  ],
+  "created_at_utc": "2026-09-19T09:28:45.800037+00:00",
+  "derivation": "Union of completed no-image and image-only runs; no additional Jev requests."
+}

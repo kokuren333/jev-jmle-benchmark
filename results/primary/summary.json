@@ -1,0 +1,25 @@
+{
+  "dataset_mode": "multi-year",
+  "image_mode": "both",
+  "n_attempted": 3556,
+  "n_success": 3556,
+  "n_correct_exact_set": 3150,
+  "accuracy_exact_set": 0.8858267716535433,
+  "accuracy_wilson95": [
+    0.8749551841730655,
+    0.8958656604465244
+  ],
+  "single_select_n": 3097,
+  "multi_select_n": 459,
+  "latency_ms": {
+    "mean": 829.2455099831271,
+    "p50": 820.6789,
+    "p90": 1008.5176,
+    "p95": 1060.9953,
+    "p99": 1137.8642249999998
+  },
+  "single_select_nll": 0.36638996341571733,
+  "single_select_multiclass_brier": 0.15684549564094286,
+  "top1_confidence_ece_10bin_exploratory": 0.028776715410573528,
+  "official_style": null
+}

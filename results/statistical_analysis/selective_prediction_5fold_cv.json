@@ -1,0 +1,19 @@
+{
+  "method": "5-fold deterministic question-ID hash split; threshold selected on 4 folds as lowest threshold with >=99% empirical accepted accuracy and at least 100 accepted items; evaluated on held-out fold",
+  "single_select_n": 3097,
+  "heldout_accepted_n": 2093,
+  "heldout_correct": 2072,
+  "heldout_coverage": 0.6758153051340007,
+  "heldout_accuracy": 0.9899665551839465,
+  "heldout_accuracy_wilson95": [
+    0.984709706194146,
+    0.9934281455600463
+  ],
+  "fold_thresholds": [
+    0.92,
+    0.9,
+    0.9,
+    0.92,
+    0.9
+  ]
+}
