@@ -20,6 +20,38 @@ The completed primary run evaluated 3,556 option-choice JMedQA items from 2018-2
 
 The repository intentionally **does not redistribute JMedQA question text or examination images**. Those materials must be obtained from their upstream sources and used under the applicable terms. The included item-level derived outputs contain identifiers, predictions/probabilities, correctness, latency, and usage metadata, but no question text.
 
+## Software, typesetting, and publication provenance
+
+The benchmark and statistical workflow used Python 3.12.10 with the frozen
+environment recorded in `environment/requirements-lock.txt`, including
+NumPy 2.5.3, pandas 2.3.3, SciPy 1.18.1, Matplotlib 3.11.2, requests 2.34.2,
+and datasets 4.8.5. Source control and release preparation use Git and
+GitHub. The manuscript and Japanese companion were prepared with
+python-docx and converted to PDF with LibreOffice Writer 25.2.3.2 (x86_64).
+
+The English PDF uses embedded Liberation Serif and Liberation Sans fonts. The
+Japanese PDF uses embedded Noto Serif CJK JP and Noto Sans CJK JP fonts, with
+limited fallback glyph coverage from Carlito and Noto Sans CJK HK. The
+terminology guide uses Noto Serif CJK JP and Noto Sans CJK JP. The English and
+Japanese manuscripts are US Letter PDFs (9 and 10 pages); the terminology
+guide is a three-page landscape A4 PDF. The PDFs are PDF 1.7, tagged, and
+contain embedded font subsets.
+
+Figures were produced or revised with Matplotlib-based tooling. The
+repository visualization script uses 180 dpi PNG output, but the final four
+redesigned manuscript figures are not asserted to be byte-identical to a
+single run of that script, and no explicit Matplotlib font family is claimed
+for those final figures.
+
+Generative AI tools were used as disclosed in the manuscript for code
+development, statistical workflow design, literature discovery, language
+editing, figure redesign, and manuscript drafting. The author reviewed the
+analyses, numerical results, references, interpretations, and final manuscript
+and assumes responsibility for the work.
+
+A copy-ready archive description for Zenodo is provided in
+`submission/ZENODO_DESCRIPTION.md`.
+
 ## Repository layout
 
 - `scripts/` - benchmark, scoring, visualization, statistical and reconstruction code

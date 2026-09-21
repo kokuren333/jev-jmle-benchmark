@@ -204,6 +204,14 @@ compute cost.
 | No image reference               | 2,582 | 2,369       | 91.75% (90.63-92.75)  | 820.3 ms           |
 | Image referenced; image withheld | 974   | 781         | 80.18% (77.57-82.57)  | 822.6 ms           |
 
+The binary image-presence grouping and the annotation-based
+`image_dependency` grouping are not identical. One item (2023C074) was
+classified as image-referenced by the metadata-based helper because auxiliary
+image metadata were present, although its JMedQA `image_dependency` label was
+`none`. Therefore, the binary no-image group contained 2,582 items, whereas
+the annotation-based `none` stratum contained 2,583 items. This does not alter
+the overall benchmark denominator or the annotation-stratified results.
+
 ## **3.2 Performance tracked information sufficiency**
 
 The binary image-referenced group was 11.57 percentage points lower than
