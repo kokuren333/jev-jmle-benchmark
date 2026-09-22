@@ -1,4 +1,4 @@
-# Extended Statistical Analysis (v0.2)
+# Extended Statistical Analysis
 
 ## Dataset
 
@@ -6,7 +6,7 @@ The derived combined dataset contains **3,556 option-choice questions**, of whic
 
 ## Binary image-condition comparison
 
-The operational no-image-reference subset contained 2,582 items with 91.75% accuracy; the image-referenced/image-withheld subset contained 974 items with 80.18% accuracy. The difference was -11.57 percentage points (Newcombe 95% CI -14.37 to -8.93; chi-square P=7.09e-22). Because these are different item sets rather than paired versions of the same items, this is an association, not a causal estimate of image removal.
+The operational no-image-reference subset contained 2,582 items with 91.75% accuracy; the image-referenced/image-withheld subset contained 974 items with 80.18% accuracy. The difference was -11.57 percentage points (Newcombe 95% CI -14.28 to -8.85; chi-square P=3.98e-22). Because these are different item sets rather than paired versions of the same items, this is an association, not a causal estimate of image removal.
 
 ## Image-dependency gradient
 

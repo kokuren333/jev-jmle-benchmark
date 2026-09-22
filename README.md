@@ -4,7 +4,7 @@ Research code and reproducibility artifacts for the manuscript:
 
 > **Ren Matsushita, MD.** *Information Sufficiency and Selective Prediction in a Structured Probabilistic Decision Model: Nine Years of the Japanese Medical Licensing Examination.*
 
-**Status:** Submitted to medRxiv as `MEDRXIV/2026/363463` (Version 1); screening in progress. Not peer reviewed.
+**Status:** Prepared for the GitHub whitepaper release `v1.0.0`. The work is a research benchmark and is not a clinical validation study.
 
 ## Main result
 
@@ -33,7 +33,7 @@ The English PDF uses embedded Liberation Serif and Liberation Sans fonts. The
 Japanese PDF uses embedded Noto Serif CJK JP and Noto Sans CJK JP fonts, with
 limited fallback glyph coverage from Carlito and Noto Sans CJK HK. The
 terminology guide uses Noto Serif CJK JP and Noto Sans CJK JP. The English and
-Japanese manuscripts are US Letter PDFs (9 and 10 pages); the terminology
+Japanese manuscripts are US Letter PDFs (9 pages each); the terminology
 guide is a three-page landscape A4 PDF. The PDFs are PDF 1.7, tagged, and
 contain embedded font subsets.
 
@@ -49,8 +49,13 @@ editing, figure redesign, and manuscript drafting. The author reviewed the
 analyses, numerical results, references, interpretations, and final manuscript
 and assumes responsibility for the work.
 
-A copy-ready archive description for Zenodo is provided in
-`submission/ZENODO_DESCRIPTION.md`.
+The public whitepaper is available as PDF in `paper/whitepaper/`. The
+English Markdown source is included for inspection; the Japanese PDF is the
+canonical Japanese publication artifact.
+
+- [English whitepaper PDF](paper/whitepaper/Jev_JMLE_Whitepaper_EN_v1.0.pdf)
+- [Japanese whitepaper PDF](paper/whitepaper/Jev_JMLE_Whitepaper_JA_v1.0.pdf)
+- [English Markdown source](paper/manuscript_en.md)
 
 ## Repository layout
 
@@ -59,8 +64,8 @@ A copy-ready archive description for Zenodo is provided in
 - `results/primary/` - item-level derived outputs and aggregate results (no question text)
 - `results/statistical_analysis/` - statistical summaries and sensitivity analyses
 - `results/official_reconstruction/` - conservative examination-by-examination score reconstruction
-- `paper/` - manuscript source, Japanese translation, figures, tables, terminology report
-- `submission/` - submission preparation documents
+- `paper/` - public whitepaper source, PDFs, final/legacy figures, tables, and terminology report
+- `docs/` - publication notes and release instructions
 
 ## Important limitations
 
@@ -70,6 +75,9 @@ This is a benchmark of constrained medical option selection, not a demonstration
 
 Author-generated code is released under the MIT License (`LICENSE-CODE`). Author-generated manuscript text and figures are released under CC BY 4.0 (`LICENSE-DOCS`). Third-party datasets, examination content, model outputs, and provider materials are **not relicensed**; see `THIRD_PARTY_NOTICES.md`.
 
-## Preprint
+## Public whitepaper
 
-The medRxiv submission is currently undergoing screening. After posting, add the public medRxiv URL/DOI here and update `CITATION.cff` accordingly.
+The intended canonical public version is the GitHub repository at
+https://github.com/kokuren333/jev-jmle-benchmark. The release tag `v1.0.0`
+identifies the whitepaper and its corresponding reproducibility artifacts.
+No Zenodo deposit or DOI is required for this publication route.

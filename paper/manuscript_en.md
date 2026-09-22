@@ -6,7 +6,7 @@ Nine Years of the Japanese Medical Licensing Examination**
 
 *Independent Researcher*
 
-Preprint manuscript - September 2026
+GitHub Whitepaper v1.0.0 - September 2026
 
 # **Abstract**
 
@@ -127,7 +127,7 @@ conditioned on the dataset's information-sufficiency annotation, not as
 a paired causal experiment in which an image was removed from the same
 item \[3\].
 
-<img src="/mnt/data/_pandoc_en/media/image1.png"
+<img src="figures/final/figure1_study_flow.png"
 style="width:6.2in;height:4.08493in" />
 
 Figure 1. Study flow and JMedQA image-dependency strata. The labels are
@@ -232,7 +232,7 @@ consistent with a simple interpretation: the model performed well when
 the necessary evidence was present in the input and degraded when the
 missing modality contained task-relevant evidence.
 
-<img src="/mnt/data/_pandoc_en/media/image2.png"
+<img src="figures/final/figure2_information_sufficiency.png"
 style="width:6.2in;height:2.78321in" />
 
 Figure 2. Exact-set accuracy by JMedQA image_dependency annotation.
@@ -266,7 +266,7 @@ calibration folds accepted 2,093 of 3,097 held-out items in aggregate
 but does not eliminate, optimism from post hoc threshold selection and
 does not establish a clinical safety guarantee.
 
-<img src="/mnt/data/_pandoc_en/media/image3.png"
+<img src="figures/final/figure3_selective_prediction.png"
 style="width:6.2in;height:2.5235in" />
 
 Figure 3. Risk-coverage trade-off for single-select questions. Raising
@@ -283,7 +283,7 @@ rho=0.533; P=.139). Because Jev is a closed model and historical JMLE
 items are public, this absence of a trend does not rule out
 training-data contamination.
 
-<img src="/mnt/data/_pandoc_en/media/image4.png"
+<img src="figures/final/figure4_yearly_accuracy.png"
 style="width:6.2in;height:3.31723in" />
 
 Figure 4. Year-by-year exact-set accuracy with Wilson 95% confidence

@@ -1,13 +1,13 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the associated preprint and the archived software release when available."
+message: "If you use this repository, please cite the GitHub whitepaper and the corresponding release tag."
 title: "Jev x Japanese Medical Licensing Examination Benchmark"
 type: software
 authors:
   - family-names: Matsushita
     given-names: Ren
     name-suffix: MD
-version: 0.4.1
-date-released: 2026-09-20
+version: 1.0.0
+date-released: 2026-09-22
 repository-code: "https://github.com/kokuren333/jev-jmle-benchmark"
 keywords:
   - medical AI

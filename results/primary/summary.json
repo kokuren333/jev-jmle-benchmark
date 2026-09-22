@@ -20,6 +20,6 @@
   },
   "single_select_nll": 0.36638996341571733,
   "single_select_multiclass_brier": 0.15684549564094286,
-  "top1_confidence_ece_10bin_exploratory": 0.028776715410573528,
+  "top1_confidence_ece_10bin_exploratory": 0.013842428156280236,
   "official_style": null
 }

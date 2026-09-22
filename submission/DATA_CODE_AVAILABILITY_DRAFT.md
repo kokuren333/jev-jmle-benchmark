@@ -1,3 +1,0 @@
-# Data and code availability — draft
-
-The underlying benchmark source, JMedQA, is publicly available from its upstream repository and is not redistributed in this project. The reproducibility repository provides author-generated evaluation code, run manifests, question identifiers, derived model decisions/probabilities, correctness labels, latency/usage metadata, statistical-analysis outputs, and figure/table source data, subject to applicable third-party terms. Examination question text and images must be obtained from the upstream source under the applicable Ministry of Health, Labour and Welfare and dataset terms. A versioned snapshot of the author-generated code and reproducibility artifacts will be archived on Zenodo at [DOI].
